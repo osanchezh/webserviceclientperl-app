@@ -1,0 +1,28 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fac="http://facade.web.ws.hr.employees.osanchezhuerta.org/" xmlns:xsd="http://domain.web.ws.hr.employees.osanchezhuerta.org/xsd/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <fac:consultarSalariesPorRango>
+         <fac:governanceHeaderRequest>
+            <xsd:hrHeader>
+               <xsd:contextoEntidad></xsd:contextoEntidad>
+               <xsd:fechaPeticion></xsd:fechaPeticion>
+               <xsd:folio>1</xsd:folio>
+               <xsd:idCanal>1</xsd:idCanal>
+               <xsd:idEntidad>1</xsd:idEntidad>
+               <xsd:idOperacion>1</xsd:idOperacion>
+               <xsd:idOrganizacion>1</xsd:idOrganizacion>
+               <xsd:idServicio>1</xsd:idServicio>
+               <xsd:idSistema>1</xsd:idSistema>
+               <xsd:idZona>1</xsd:idZona>
+            </xsd:hrHeader>
+         </fac:governanceHeaderRequest>
+         <fac:consultarSalariesPorRangoInput>
+            <fac:lstEmpNo>
+               <xsd:empNo>10001</xsd:empNo>
+            </fac:lstEmpNo>
+            <fac:pageNumber>2</fac:pageNumber>
+            <fac:pageSize>2</fac:pageSize>
+         </fac:consultarSalariesPorRangoInput>
+      </fac:consultarSalariesPorRango>
+   </soapenv:Body>
+</soapenv:Envelope>
